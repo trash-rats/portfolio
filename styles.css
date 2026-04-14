@@ -313,6 +313,25 @@ img { display: block; max-width: 100%; height: auto; }
   padding: 1rem;
 }
 
+.figma-frame {
+  margin-top: 1.5rem;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  background: var(--card);
+  border: 1px solid color-mix(in oklch, var(--border) 50%, transparent);
+  box-shadow: 0 10px 25px -10px rgb(0 0 0 / 0.15);
+  aspect-ratio: 4 / 3;
+}
+.figma-frame iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+@media (max-width: 640px) {
+  .figma-frame { aspect-ratio: 9 / 16; }
+}
+
 .download-row { margin-top: 1.5rem; }
 .download-btn {
   display: inline-flex;
