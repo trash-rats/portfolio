@@ -51,8 +51,8 @@
           <span class="tag">UI Design</span>
           <span class="tag">Web Application</span>
         </div>
-        <h1>Internal Web Application</h1>
-        <p class="detail-hero-sub">Case Study</p>
+        <h1>New Check Capture Process</h1>
+        <p class="detail-hero-sub">Core Banking UI Overhaul — 5-Month Project</p>
       </div>
     </div>
   </div>
@@ -60,7 +60,154 @@
   <div class="detail-content">
     <section>
       <h2>Overview</h2>
-      <p class="lead">Led the design of an internal web application focused on improving operational efficiency. Conducted user research, created wireframes, and delivered a polished UI that reduced task completion time.</p>
+      <p class="lead">Led the design of a major UI overhaul of a core banking system, replacing physical check scanners with a fully integrated digital check capture workflow. As the <strong>sole UX/UI designer</strong>, I guided design strategy across a highly regulated and technically complex environment — translating business, regulatory, and operational requirements into clear, actionable UX solutions.</p>
+      <p class="lead">This case study highlights my ability to navigate complex problem spaces, balance the needs of diverse user groups (frontline employees, managers, compliance officers, and customers), and bridge the gap between design and development — delivering user-centered solutions that respect real-world technical and compliance constraints.</p>
+      <div class="download-row">
+        <a href="/assets/internal-web-app-case-study.pdf" class="download-btn" download>
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Download Full Case Study (PDF)
+        </a>
+      </div>
+    </section>
+
+    <section>
+      <h2>The Problem</h2>
+      <p class="lead">The existing check capture process relied on physical scanners, introducing several operational challenges:</p>
+      <ul class="bullet-list">
+        <li>Slower transaction processing at the branch level, especially during peak periods</li>
+        <li>Increased risk of human error in handling, scanning, and validating checks</li>
+        <li>Limited flexibility for employees performing transactions in front of customers</li>
+        <li>Challenges maintaining real-time compliance with internal policies and regulatory requirements</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>User Flow</h2>
+      <p class="lead">An example user flow showing how members, tellers, and approvers move through the new digital check capture process — from account lookup through OCR validation, fraud checks, hold placement, and regulatory reporting.</p>
+      <div class="image-frame image-frame-dark">
+        <img src="/assets/check-capture-flow.png" alt="New Check Capture Process user flow diagram" />
+      </div>
+    </section>
+
+    <section>
+      <h2>Goals</h2>
+      <div class="goal-list">
+        <div class="goal"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg><p>Deliver an intuitive experience requiring no additional hardware and minimal training</p></div>
+        <div class="goal"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg><p>Meet NCUA regulations, internal check policies, and fraud detection protocols</p></div>
+        <div class="goal"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg><p>Complete the full check capture process in ~1:30 with an optimal 5-click workflow (aligned with Miller's Law)</p></div>
+        <div class="goal"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg><p>Integrate seamlessly with core banking systems, OCR vendors, and automated verification tools</p></div>
+        <div class="goal"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg><p>Handle complex edge cases in real-time while mitigating risk and maintaining data privacy</p></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Process</h2>
+      <div class="process-list">
+        <div class="process-step">
+          <h3>1. Discovery &amp; Research</h3>
+          <ul class="bullet-list">
+            <li>Conducted stakeholder interviews with frontline employees, branch managers, and compliance officers</li>
+            <li>Reviewed process manuals, system architecture, and user role responsibilities</li>
+            <li>Surveyed 20+ employees across multiple branches on efficiency and compliance</li>
+            <li>Shadowed employees during check capture to observe real-world decision-making</li>
+            <li>Analyzed environmental factors — branch layout, lighting, workstation ergonomics — impacting OCR capture</li>
+          </ul>
+        </div>
+        <div class="process-step">
+          <h3>2. Define &amp; Scope</h3>
+          <ul class="bullet-list">
+            <li>Captured functional, non-functional, and regulatory requirements</li>
+            <li>Defined workflow rules: deposit limits, multi-branch tracking, signature verification, audit-readiness</li>
+            <li>Developed high-fidelity user flows with role-based decision logic, conditional exceptions, and approval hierarchies</li>
+            <li>Validated flows with line-of-business stakeholders, project managers, and compliance teams</li>
+          </ul>
+        </div>
+        <div class="process-step">
+          <h3>3. Ideate &amp; Technical Alignment</h3>
+          <ul class="bullet-list">
+            <li>Translated insights into end-to-end workflow sketches covering ideal journeys and edge cases</li>
+            <li>Collaborated with front-end, back-end, and data engineers on visual and technical constraints</li>
+            <li>Evaluated UX-versus-implementation tradeoffs (e.g. instant feedback vs. OCR processing latency)</li>
+            <li>Prioritized critical UX elements to maintain project timelines and system stability</li>
+          </ul>
+        </div>
+        <div class="process-step">
+          <h3>4. Design &amp; Validation</h3>
+          <ul class="bullet-list">
+            <li>Created low-fidelity wireframes in Figma to visualize end-to-end workflows</li>
+            <li>Built high-fidelity UI with brand standards, responsive behavior, and accessibility (OCR color contrast, keyboard navigation, screen reader compatibility)</li>
+            <li>Developed reusable component libraries (inputs, buttons, modals, error states, notifications)</li>
+            <li>Led 7–9 iterative feedback sessions with frontline employees to refine logic, edge cases, and error messaging</li>
+          </ul>
+        </div>
+        <div class="process-step">
+          <h3>5. Implementation, QA &amp; Launch</h3>
+          <ul class="bullet-list">
+            <li>Conducted screen-by-screen design verification during development</li>
+            <li>Collaborated on scenario-based usability testing, automated feature validation, and regulatory compliance checks</li>
+            <li>Monitored real-time error handling during go-live</li>
+            <li>Iterated on error messaging, workflow sequences, and OCR capture guidance based on live feedback</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Key Design Choices</h2>
+      <p class="lead">Three principles shaped the final experience:</p>
+      <div class="choice-list">
+        <div class="choice">
+          <h3>Clarity over complexity</h3>
+          <p>Standardized, actionable error messaging so employees can resolve issues without escalating — critical for high-pressure, front-of-customer banking workflows.</p>
+        </div>
+        <div class="choice">
+          <h3>Compliance-first accessibility</h3>
+          <p>OCR-readable color contrast, clear typographic hierarchy, and full keyboard navigation to meet NCUA, audit, and WCAG requirements without slowing experienced users.</p>
+        </div>
+        <div class="choice">
+          <h3>Efficient, scannable workflows</h3>
+          <p>Aligned with Miller's Law, the 5-click check capture path keeps the full transaction under ~1:30 while surfacing OCR status, hold conditions, and approval prompts at the right moment.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Challenges</h2>
+      <div class="challenge-box">
+        <p>• Balancing optimal UX with system limitations (e.g. instant feedback vs. OCR processing latency)</p>
+        <p>• Navigating strict regulatory, technical, and operational constraints as the sole UX designer</p>
+        <p>• Accommodating hierarchical approval escalations, variable hold conditions, and real-time fraud workflows</p>
+        <p>• Environmental factors impacting OCR — white countertops caused frequent failures, resolved with navy-colored mats</p>
+        <p>• Aligning multi-level stakeholders including CEO, CIO, CLO, SVP of Retail, and regulatory teams</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Outcomes</h2>
+      <div class="outcome-grid">
+        <div class="outcome"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg><p>Successful launch with positive feedback from end users and business stakeholders</p></div>
+        <div class="outcome"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg><p>Eliminated dependency on physical check scanners — fully digital, front-of-customer workflows</p></div>
+        <div class="outcome"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg><p>OCR and autofill capabilities performed efficiently with accurate real-time data capture</p></div>
+        <div class="outcome"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg><p>Improved workflow efficiency, reduced processing errors, and enhanced user confidence</p></div>
+        <div class="outcome"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg><p>Established a scalable, standardized UI framework for future features and updates</p></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Impact</h2>
+      <div class="stats-grid">
+        <div class="stat"><span class="stat-value">5 mo</span><span class="stat-label">Project duration</span></div>
+        <div class="stat"><span class="stat-value">~1:30</span><span class="stat-label">Target transaction time</span></div>
+        <div class="stat"><span class="stat-value">5</span><span class="stat-label">Click optimal workflow</span></div>
+        <div class="stat"><span class="stat-value">20+</span><span class="stat-label">Employees surveyed</span></div>
+        <div class="stat"><span class="stat-value">7–9</span><span class="stat-label">Iterative feedback sessions</span></div>
+        <div class="stat"><span class="stat-value">1</span><span class="stat-label">Sole UX designer</span></div>
+      </div>
+      <ul class="bullet-list" style="margin-top: 2rem;">
+        <li>Re-architected end-to-end check capture — eliminating physical scanners and enabling digital-first banking interactions</li>
+        <li>Delivered clear design specifications and reusable component libraries, minimizing implementation risk and rework</li>
+        <li>Balanced user experience, backend capabilities, regulatory compliance, and business objectives in a highly constrained environment</li>
+      </ul>
     </section>
 
     <div class="detail-footer-link">
